@@ -63,5 +63,5 @@ Abysall.Analytics = loadstring(game:HttpGet(BaseUrl .. "Components/Analytics.lua
 
 local CurrentGame = GameList[game.GameId]
 if CurrentGame then
-    loadstring(game:HttpGet(BaseUrl .. "Games/" .. CurrentGame .. "/Checker.luau"))()
+    loadstring(game:HttpGet(BaseUrl .. "Game/" .. CurrentGame .. "/Checker.luau"))()
 end
